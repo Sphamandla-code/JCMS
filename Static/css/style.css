@@ -1,0 +1,230 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.user_img {
+  margin-top: 10px;
+}
+
+#user_dialog {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: black -3px 3px 3px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  z-index: 1000 !important;
+  display: none;
+}
+#user_dialog .mybtn {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+#user_dialog .mybtn:hover {
+  color: wheat;
+  background-color: gray !important;
+}
+
+.fullsideView {
+  width: 20%;
+  height: 95%;
+  background-color: rgb(68, 90, 119);
+  padding: 20px;
+  float: left;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.fullsideView:hover {
+  overflow-y: scroll;
+}
+
+.menu-items {
+  border: 0px !important;
+}
+
+.fullView {
+  overflow: hidden;
+}
+
+.fullView:hover {
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 992px) {
+  .fullView {
+    width: 80%;
+    height: 95%;
+    float: left;
+  }
+}
+@media screen and (max-width: 992px) {
+  .fullView {
+    width: 100%;
+    height: 95%;
+    float: left;
+  }
+}
+.page-data {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.myItems {
+  border-radius: 10px;
+  padding: auto;
+  padding-bottom: 5px;
+}
+
+.container-flex {
+  padding: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+@font-face {
+  font-family: "digital";
+  src: url("../fonts/digital-7.ttf");
+}
+.digital {
+  font-family: "digital";
+}
+
+.mydate {
+  margin-top: -30px;
+}
+
+.mylist {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.footer {
+  padding: 50px 0px;
+}
+
+.circle-avater {
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.mywin {
+  display: none;
+}
+.mywin .mywin-win {
+  padding: 10px !important;
+}
+
+.search-input {
+  width: 70% !important;
+  border: 1px solid rgb(71, 71, 71) !important;
+  padding: 5px 20px !important;
+  border-radius: 50px !important;
+}
+
+.new-list {
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+.new-list .news-item p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.new-messages, .old-messages {
+  height: 300px;
+  overflow: hidden;
+}
+
+.new-messages:hover, .old-messages:hover {
+  overflow-y: scroll;
+}
+
+.login_card {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.login_card .login_form {
+  padding: 150px 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.login_card .login_form .input-field {
+  width: 60%;
+}
+
+.imgback {
+  background-image: url("../imgs/entrance.jpg");
+  background-size: cover;
+  margin: 0px !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.imgback .imgbackcover {
+  width: 104%;
+  margin-left: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(34, 32, 32, 0.5);
+  padding: 153.5px 10px !important;
+}
+
+.confirm_form {
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  width: 40%;
+  bottom: 10px;
+  left: 40%;
+  z-index: 10;
+  display: none;
+}
+
+.message_state {
+  padding: 10px;
+}
+.message_state .error_message {
+  border-left: 5px solid rgb(77, 3, 3);
+}
+.message_state .succes_message {
+  border-left: 5px solid rgb(12, 46, 2);
+}
+
+.seach_user_input {
+  display: none;
+}
+
+.upload_pp {
+  display: none;
+}
+
+.hide_me {
+  display: none;
+}
+
+#coverme {
+  background: url("../imgs/entrance.jpg") no-repeat center center !important;
+  width: 100%;
+  height: 255px;
+  padding: 0px !important;
+}
+#coverme .coverme_overlay {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  margin: 0px;
+  border-radius: 10px;
+  background-color: rgba(41, 39, 39, 0.5);
+}/*# sourceMappingURL=style.css.map */
